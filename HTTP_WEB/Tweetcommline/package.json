@@ -1,0 +1,30 @@
+{
+  "name": "tweetcommline",
+  "version": "1.0.0",
+  "description": "Twitter command line tool that gets new tweets on your timeline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inumidunamao/andela-bootcamp-day2.git"
+  },
+  "bin": {
+    "tweetcomm": "./index.js"
+  },
+  "author": "Inumidun Amao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inumidunamao/andela-bootcamp-day2/issues"
+  },
+  "homepage": "https://github.com/inumidunamao/andela-bootcamp-day2#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "html-entities": "^1.2.0",
+    "moment": "^2.17.1",
+    "oauth": "^0.9.15"
+  }
+}
