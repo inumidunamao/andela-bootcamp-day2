@@ -14,12 +14,9 @@ function wordCount(sentence) {
 																			
 				if ((counter[word] !== undefined && counter[word].constructor != Number)){
 						counter[word] = 1;
-						console.log(counter[word]);
 						word = '';
-					
 				} else {
-					counter[word] = (counter[word] !== undefined) ? counter[String(word)] + 1: 1;
-					//console.log(counter);		
+					counter[word] = (counter[word] !== undefined) ? counter[String(word)] + 1: 1;	
 					word = '';	
 				}
 			}
